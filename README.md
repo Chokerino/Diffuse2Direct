@@ -1,0 +1,3 @@
+# Diffuse2Direct
+
+Results can be replicated by running [this notebook](https://github.com/Chokerino/Diffuse2Direct/blob/master/code/Diffuse2Direct.ipynb). The most trivial change here would be to use a SVC instead of the linear regression model being used here but the results [I got]((https://github.com/Chokerino/Diffuse2Direct/blob/master/code/Diffuse2Direct_svm.ipynb)) by using the SVC seem to match with the paper while the results mentioned in the orginal notebook don't. Since, the paper dosent mention the model used in making predictions, their results might have been achieved using an svm.  Nothing more to add/change right now.
